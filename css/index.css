@@ -773,11 +773,17 @@ main > *{
 
 .section10 .design-inner ul li a {
     display: flex;
+    margin-bottom: 24px;
 }
+.section10 .design-inner ul li:last-child a {
+    margin-bottom: 0;
+}
+
 
 .section10 .design-inner ul li:first-child {
     margin-top: 30px;
 }
+
 
 .section10 .design-inner ul li .image {
     width: 50%;
